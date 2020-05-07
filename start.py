@@ -54,8 +54,7 @@ def delete_blob(bucket_name, blob_name):
     blob = bucket.blob(blob_name)
     blob.delete()
 
-
-
+ 
 def google_transcribe(audio_file_name):
     
     file_name = filepath + audio_file_name
@@ -112,18 +111,14 @@ def google_transcribe(audio_file_name):
     delete_blob(bucket_name, destination_blob_name)
     return transcript
 
-#google_transcribe("77.wav")
-
-
-
-
 
 def write_transcripts(transcript_filename,transcript):
     f= open(output_filepath + transcript_filename,"w+")
     f.write(transcript)
     f.close()
 
-
+    
+    
 if __name__ == "__main__":
     audio_file_name = "a.wav"
     print("Starting transcription")
@@ -147,21 +142,4 @@ https://www.youtube.com/watch?v=d-s50JhC4aw 4 days ago
 
 https://www.youtube.com/watch?v=zZMz9I_1vo0
 (Netflix Posts Explosive Growth) 4 days ago)
-"""
-
-#how to use googles api (so far...)
-#export GOOGLE_APPLICATION_CREDENTIALS="secret.json"
-#pip install --upgrade google-cloud-speech
-#gcloud projects add-iam-policy-binding "uhhh-274902" --member "serviceAccount:ok-121@uhhh-274902.iam.gserviceaccount.com" --role "roles/owner"
-# ** make sure u have oauth, api key, and service account (set to storage admin for personal and sercie account)
-
-
-
-"""
-echo "# Google-Specch-API-Setup" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/chakane3/Google-Specch-API-Setup.git
-git push -u origin master
 """
