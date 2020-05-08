@@ -12,7 +12,8 @@
 <ul>
   <li>Once you created the new project you can select it and should be at this screen below</li>
   <img src="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/5.png">
-  <li></li>
+  <li>Go to the search bar and search for Google's Speech-to-Text API and enable it. It should look like this.</li>
+  <img src="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/6.png">
   <li></li>
   <li></li>
 </ul>
