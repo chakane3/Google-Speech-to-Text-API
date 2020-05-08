@@ -10,7 +10,8 @@
 </ul>
 <b>Enabling API</b>
 <ul>
-  <li><img src="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/5.png"></li>
+  <li>Once you created the new project you can select it and should be at this screen below</li>
+  <img src="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/5.png">
   <li></li>
   <li></li>
   <li></li>
