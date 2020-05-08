@@ -14,6 +14,6 @@
   <img src="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/5.png">
   
   <li>Go to the search bar and search for Google's Speech-to-Text API and enable it. It should look like <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/6.png">this</a>.</li>
-  <li></li>
-  <li></li>
+  <li>Then click on the api you need and click the enable button</li>
+  <li>Now that the API is enabled we will crete the credentials with can be seen in <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/8.png">this</a> window. </li>
 </ul>
