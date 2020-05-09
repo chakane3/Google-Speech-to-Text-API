@@ -19,4 +19,5 @@
   <li>Specify that you want to use Speech to Text, and you will see an option like <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/10.png">this</a>, asking if you are going to use an engine. For this purpose specify that you dont want to.</li>
   <li>Next we go to the left tab containing API's and Services and go to OAuth consetn screen <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/14.png">here</a></li>
   <li>We then name the project witht he default configurations and then on application type , select <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/16.png">other</a></li>
+  <li>We then have to give account permissions as owner and storage admin like <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/15.png">this</a></li>
 </ul>
