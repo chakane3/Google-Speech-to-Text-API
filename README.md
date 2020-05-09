@@ -16,4 +16,7 @@
   <li>Go to the search bar and search for Google's Speech-to-Text API and enable it. It should look like <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/6.png">this</a>.</li>
   <li>Then click on the api you need and click the enable button</li>
   <li>Now that the API is enabled we will create the credentials which can be seen in <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/8.png">this</a> window. </li>
+  <li>Specify that you want to use Speech to Text, and you will see an option like <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/10.png">this</a>, asking if you are going to use an engine. For this purpose specify that you dont want to.</li>
+  <li>Next we go to the left tab containing API's and Services and go to OAuth consetn screen <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/14.png">here</a></li>
+  <li>We then name the project witht he default configurations and then on application type , select <a href="https://github.com/chakane3/Google-Speech-to-Text-API/blob/master/Screenshots/16.png">other</a></li>
 </ul>
