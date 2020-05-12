@@ -85,28 +85,28 @@ def google_transcribe(audio_file_name):
     diarization_speaker_count=2, 
     speech_contexts = [speech_context],
     use_enhanced = True, 
-    model = "phone_call") #Changed
+    model = "phone_call")
 
     # Detects speech in the audio file
     print("detecting speech")
     operation = client.long_running_recognize(config, audio)
     response = operation.result(timeout=10000)
-    result = response.results[-1] #Changed
-    words_info = result.alternatives[0].words #Changed
+    result = response.results[-1] 
+    words_info = result.alternatives[0].words 
     
-    tag=1 #Changed
-    speaker="" #Changed
+    tag=1 
+    speaker="" 
 
     print("Assembling words")
-    for word_info in words_info: #Changed
-        if word_info.speaker_tag==tag: #Changed
-            speaker=speaker+" "+word_info.word #Changed
+    for word_info in words_info:
+        if word_info.speaker_tag==tag:
+            speaker=speaker+" "+word_info.word
         else: #Changed
-            transcript += "speaker {}: {}".format(tag,speaker) + '\n' #Changed
-            tag=word_info.speaker_tag #Changed
-            speaker=""+word_info.word #Changed
+            transcript += "speaker {}: {}".format(tag,speaker) + '\n'
+            tag=word_info.speaker_tag 
+            speaker=""+word_info.word 
  
-    transcript += "speaker {}: {}".format(tag,speaker) #Changed
+    transcript += "speaker {}: {}".format(tag,speaker) 
     
     delete_blob(bucket_name, destination_blob_name)
     return transcript
