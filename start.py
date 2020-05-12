@@ -8,9 +8,9 @@ from google.cloud import speech_v1p1beta1 as speech #Changed
 from google.cloud.speech_v1p1beta1 import enums #Changed
 from google.cloud.speech_v1p1beta1 import types #
 from os.path import splitext
-#from pydub import AudioSegment
+from pydub import AudioSegment
 import pathlib
-#import google.cloud.storage as gcs
+import google.cloud.storage as gcs
 import wave
 from google.cloud import storage
 storage_client = storage.Client()
